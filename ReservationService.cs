@@ -20,6 +20,9 @@ namespace Hotel
 			return new Reservation
 			{
 				Guid = Guid.NewGuid(),
+				Room = null,
+				TimePeriod = null,
+				Customer = null
 			};
 		}
 

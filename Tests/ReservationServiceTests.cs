@@ -36,7 +36,7 @@ namespace Hotel.Tests
 
 
 		[Test]
-		public void Should_ReturnRservationWithNotEmptyGuid()
+		public void Should_CreateRservationWithNotEmptyGuid()
 		{
 			var reservation = _reservationService.CreateReservation();
 			

@@ -47,16 +47,20 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerService.cs" />
+    <Compile Include="DateTimeService.cs" />
+    <Compile Include="DiscountService.cs" />
     <Compile Include="Reservation.cs" />
     <Compile Include="ReservationService.cs" />
     <Compile Include="Tests\CustomerServiceTests.cs" />
     <Compile Include="DataContext.cs" />
     <Compile Include="Discount.cs" />
-    <Compile Include="FreeRoomService.cs" />
+    <Compile Include="RoomService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Room.cs" />
     <Compile Include="RoomLevel.cs" />
+    <Compile Include="Tests\DateTimeServiceMock.cs" />
+    <Compile Include="Tests\DiscountServiceTests.cs" />
     <Compile Include="Tests\ReservationServiceTests.cs" />
     <Compile Include="Tests\RoomServiceTests.cs" />
     <Compile Include="RoomViewModel.cs" />

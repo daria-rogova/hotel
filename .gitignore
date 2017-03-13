@@ -22,3 +22,11 @@ packages/NUnit.3.6.1/NOTICES.txt
 packages/NUnit.3.6.1/NUnit.3.6.1.nupkg
 packages/NUnit.3.6.1/NUnit.3.6.1.nuspec
 packages/repositories.config
+Properties/AssemblyInfo.cs
+bin/Debug/Hotel.exe
+bin/Debug/Hotel.exe.config
+bin/Debug/Hotel.pdb
+bin/Debug/Hotel.vshost.exe
+bin/Debug/Hotel.vshost.exe.config
+bin/Debug/nunit.framework.dll
+bin/Debug/nunit.framework.xml
