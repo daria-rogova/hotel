@@ -1,0 +1,14 @@
+User Story #1
+Given I as a user
+When I ask ReservationService to create a new Reservation
+Then the ReservationService returns the new Reservation with not Empty Guid
+
+(Should_CreateRservationWithNotEmptyGuid)
+
+User Story #2
+
+Given I as a user create a new Reservation
+When I ask ReservationService to add a new Reservation
+Then the ReservationService adds the new Reservation to the DataBase
+
+(Should_AddReservation)

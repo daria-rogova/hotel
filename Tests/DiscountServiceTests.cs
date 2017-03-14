@@ -9,7 +9,7 @@ namespace Hotel.Tests
 	{
 
 		[Test]
-		public void Should_ReturnBirdayDiscount_IfTodayIsCustomersBirthday()
+		public void Should_ReturnBirthdayDiscount_IfTodayIsCustomersBirthday()
 		{
 			var customer = new Customer();
 			customer.DateOfBirth = new DateTime(1980, 4, 1);

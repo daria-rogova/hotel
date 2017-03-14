@@ -1,0 +1,23 @@
+User Story #1
+
+Given RoomService
+When the RoomService is asked for free rooms with entered valid discount
+Then RoomService returns the list of rooms with prices multiplied by the corresponding discount miltiplier 
+
+(RoomServiceTests -> When_UserInputsValidDiscountCode_Expect_ServiceReturnsPricesWithDiscount)
+
+User Story #2
+
+Given RoomService
+When the RoomService is asked for free rooms with entered invalid discount
+Then RoomService returns the list of rooms with normal prices 
+(When_UserInputsInvalidDiscountCode_Expect_ServiceReturnsPricesWithDiscount)
+
+
+User Story #3
+
+Given RoomService
+When the RoomService is asked for free rooms with required time period
+Then the RoomService returns rooms which are not booked for the required time period
+
+(When_UserInputsDiscountAndTimePeriod_Expect_ServiseReturnsNotReservedRooms)
