@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
+	//В этом классе используется парадигма ООП:
+	// полиморфизм: методы GetFreeRooms имеют одинаковое имя и разные входные параметры
+	//Инкапсуляция: RoomService использует IDataContext, для корректного использования IDataContext _dataContext
+	//Имеет модификатор доступа Private
+
+
+	//SOLID -> DIP -> RoomService не зависит от реализации IDataContext и IDateTimeService
+
     public class RoomService
     {
         private IDataContext _dataContext;

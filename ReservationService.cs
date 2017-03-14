@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hotel
 {
+	//Из ООП используется инкапсуляция
+	//Из SOLID - DIP, так как ReservationService не зависит от реализации IDataContext
 	public class ReservationService
 	{
 		private IDataContext _dataContext;
